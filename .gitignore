@@ -1,0 +1,32 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/.idea.TikTokFireAutomation.iml
+/projectSettingsUpdater.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# .NET / Build files
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db
+*.log
+*.tmp
+*.bak
+*.cache
+
+.idea/
+*.iws
+*.iml
+*.ipr
