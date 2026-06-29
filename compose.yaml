@@ -2,7 +2,7 @@
   tiktok-bot:
     image: ghcr.io/diator777/tiktok-fire-automation:latest
     container_name: tiktok-automation-bot
-    restart: unless-stopped
+    restart: "no"
     volumes:
       - ./config.json:/app/config.json
       - ./cookies.json:/app/cookies.json
