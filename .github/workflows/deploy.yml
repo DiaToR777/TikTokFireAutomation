@@ -2,7 +2,7 @@ name: Deploy TikTok Bot
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 permissions:
   contents: read
