@@ -15,7 +15,7 @@ RUN dotnet publish "./TikTokFireAutomation.csproj" \
     -o /app/publish \
     /p:UseAppHost=true
 
-FROM mcr.microsoft.com/playwright/dotnet:v1.61.0-jammy AS final
+FROM mcr.microsoft.com/playwright/dotnet:v1.61.0 AS final
 WORKDIR /app
 
 COPY --from=build /app/publish .
