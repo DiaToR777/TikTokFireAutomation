@@ -1,8 +1,6 @@
 ﻿services:
   tiktok-bot:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: ghcr.io/diator777/tiktok-fire-automation:latest
     container_name: tiktok-automation-bot
     restart: unless-stopped
     volumes:
